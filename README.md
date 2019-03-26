@@ -13,7 +13,7 @@ Admin url: http://13.233.8.185/admin
 username: admin 
 password: admin123
 
-you can submit the same number again to see how much less time it took to execute he same again.
+<h3>Try to submit the same number again to see how much less time it took to execute he same again.</h3>
 
 There are various ways of Optimization you can do on this:
 
