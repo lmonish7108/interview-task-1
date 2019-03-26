@@ -1,0 +1,18 @@
+{% load static %}
+<html>
+<head>
+	<title>Fibonacci App</title>
+
+	<script src="{% static 'external_scripts_stylesheets/jquery.min.js' %}"></script>
+	<script src="{% static 'js/form_submit.js' %}"></script>
+	<link rel="stylesheet" href="{% static 'external_scripts_stylesheets/bootstrap.min.css' %}">
+	<link rel="stylesheet" href="{% static 'css/result_page.css' %}">
+	
+</head>
+<body>
+	<div class="container">
+		{% block content %}
+		{% endblock %}
+	</div>
+</body>
+</html>
